@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Time to Become Bankrupt!</title>
+    <link rel="stylesheet" href="css/game.css">
+  </head>
+  <body>
+    <div class="spendChoice">
+      <span class="helper"></span>
+      <div>
+          <button id="spendC1" class="choice">Spend on ___</button>
+          <br>
+          <button id="spendC2" class="choice">Spend on ___</button>
+          <br>
+          <button id="spendC3" class="choice">Spend on ___</button>
+      </div>
+    </div>
+    <div id="money" class="divBox">
+      <h4>Money:</h4>
+      <h1 id="moneyValue">$20,000,000</h1>
+    </div>
+    <div id="name" class="divBox">
+      <h4>Name:</h4>
+      <h1 id="nameValue">Tom Adams</h1>
+    </div>
+    <div id="currentEvent" class="divBox">
+      <h1 id="event">Timmy Adams dies suddenly, everyone becomes money-generous.</h1>
+    </div>
+    <div id="actions" class="divBox">
+      <h1>Actions:</h1>
+      <button id="advance">Advance Day</button>
+      <button id="spend">Spend Your Money</button>
+      <br>
+      <button id="manage">Manage Spending Habits</button>
+    </div>
+    <div id="stats" class="divBox">
+      <h1>Stats:</h1>
+      <h2 id="actionsLeft">Actions Left Today: 6</h2>
+      <h2 id="daysCompleted">Days Completed: 0</h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/vals.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
