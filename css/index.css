@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Plus+Jakarta+Sans:wght@300&display=swap');
+
+body{
+  font-family: 'Fredoka One', arial;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.reset{
+  margin: 0px;
+  border: none;
+  padding 0px;
+}
+
+#backgroundThingy{
+  background-color: white;
+  box-shadow: 0px 0px 50px 15px grey;
+  border-radius: 10px;
+  /*Time to reorganize*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button{
+  font-family: inherit;
+  font-size: 50px;
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: green;
+  cursor: pointer;
+}
