@@ -30,8 +30,8 @@ $("#advance").click(function(){
   }
 });
 
-var spendChoiceTypes = ["buying expensive cars", "charity", "cats", "houses", "ice cream", "data", "parking tickets", "unpaid bills"];
-var spendChoiceTypeAmounts = [1700000, 10000, 250, 350000, 10, 5000, 800, 4300];
+var spendChoiceTypes = ["buying expensive cars", "charity", "cats", "houses", "ice cream", "data", "parking tickets", "unpaid bills", "tables", "propaganda", "aid", "being nice", "more charities", "money", "spendings"];
+var spendChoiceTypeAmounts = [1700000, 10000, 250, 350000, 10, 5000, 800, 4300, 500, 130000, 340000, 400, 83293, -20000000, 10000];
 
 var spendChoiceAmounts = [100,100,100];
 
