@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/game.css">
   </head>
   <body>
-    <div class="spendChoice">
+    <div class="spendChoice popup">
       <span class="helper"></span>
       <div>
           <button id="spendC1" class="choice">Spend on ___</button>
@@ -13,6 +13,21 @@
           <button id="spendC2" class="choice">Spend on ___</button>
           <br>
           <button id="spendC3" class="choice">Spend on ___</button>
+      </div>
+    </div>
+    <div class="habitThing popup">
+      <span class="helper"></span>
+      <div>
+          <input type="radio" id="choice1" name="spendingHabits" value="50000" checked="checked"/>
+          <label for="choice1" class="choice">Donate $50,000 per day</label>
+          <br>
+          <input type="radio" id="choice2" name="spendingHabits" value="100000"/>
+          <label for="choice2" class="choice">Donate $100,000 per day (Unlocks on 5th day)</label>
+          <br>
+          <input type="radio" id="choice3" name="spendingHabits" value="500000"/>
+          <label for="choice3" class="choice">Donate $500,000 per day (Unlocks on 10th day)</label>
+          <br>
+          <button id="backOut">Leave Menu</button>
       </div>
     </div>
     <div id="money" class="divBox">
@@ -32,11 +47,13 @@
       <button id="spend">Spend Your Money</button>
       <br>
       <button id="manage">Manage Spending Habits</button>
+      <button id="change">Change Name (Ends Game)</button>
     </div>
     <div id="stats" class="divBox">
       <h1>Stats:</h1>
       <h2 id="actionsLeft">Actions Left Today: 6</h2>
       <h2 id="daysCompleted">Days Completed: 0</h2>
+      <h2 id="moneyGranted">Money Granted Yesterday: $0</h2>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/vals.js"></script>
