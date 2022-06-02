@@ -10,5 +10,19 @@ var currentEvents = [
   "Woo-ee-oo I look just like buddy holly.",
   "Bull comments on how targets having a \"bull's eye\" is really harmful to bulls.",
   "Jessica comes out as lesbian, everyone supports her, as they should.",
-  "Popular influencer #90217321236129 tries to get free pizza, instead is punched so hard they get sent to the moon."
+  "Cats are really cute!",
+  "June Exclusive! It's pride month! Everyone cheer!",
+  "Tom Adams recognized as a crazy person.",
+  "\"Punch\"uation is the new puncuation!",
+  "*Crash Cymbal Crashes*",
+  "I said, \"It's not what you like, it's what you're like as a person\"",
+  "Song lyrics are being used as titles?",
+  "FireTree Games publishes new game! This one!",
+  "You solved the puzzle.",
+  "There's lore.",
+  "Every message.",
+  "Lore.",
+  "Look for it.",
+  "There is more.",
+  "There actually is no lore, so ignore those current events."
 ];
